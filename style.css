@@ -14,6 +14,10 @@
     --tech-color: #009cff;
   }
   
+
+.category-sports { background: var(--sports-color) }
+.category-ent { background: var(--ent-color) }
+.category-tech { background: var(--tech-color) }
   * {
     margin: 0;
     padding: 0;
@@ -151,7 +155,7 @@ text-transform: uppercase;
 font-size: .55rem;
 padding: 0.4rem 0.6rem ;
 margin-bottom: 0.5rem;
-  background: var(--sports-color);
+
 }
 
 
@@ -164,3 +168,7 @@ margin-bottom: 0.5rem;
 }
 
 /* meta */
+.gallery{
+  background: #fff;
+  padding: 1rem;
+}
