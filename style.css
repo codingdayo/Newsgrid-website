@@ -246,3 +246,40 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+
+
+/* about */
+#about .about-container{
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+
+.about-container .about-text {background: #fff;
+  padding: 1rem;}
+
+.about-container > *:first-child{
+  grid-row: 1 /span 3;
+}
+
+.about-text h1{
+  font-size: 3rem;
+}
+
+.about-sid{
+  padding: 1rem ;
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.about-sid a{
+  text-align: center;
+  width: 100%;
+  color: #333;
+}
+
+.about-sid h3{
+  font-size: 1.5rem;
+}
